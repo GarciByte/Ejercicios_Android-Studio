@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplicacion Sencilla</string>
+    <string name="btn_pulsar">Pick me!</string>
+    <string name="btn_resetear">Reset</string>
+    <string name="txt_original">No one hit the button.</string>
+    <string name="txt_pulsado">Octavio Ramírez Oca hit the button.</string>
+</resources>

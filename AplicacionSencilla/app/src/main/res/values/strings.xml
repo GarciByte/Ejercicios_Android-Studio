@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Aplicacion Sencilla</string>
+    <string name="btn_pulsar">Pulsar</string>
+    <string name="btn_resetear">Resetear</string>
+    <string name="txt_original">Nadie pulsó el botón aún</string>
+    <string name="txt_pulsado">Octavio Ramírez Oca pulsó el botón</string>
+</resources>

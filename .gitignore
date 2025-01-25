@@ -1,33 +1,57 @@
-# Gradle files
-.gradle/
+# Android Studio y archivos específicos del IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+local.properties  # Contiene rutas del SDK (¡nunca versionar!)
+navigationEditor/  # Cache de Navigation Component
+/captures  # Capturas de pantalla del emulador
+/.android/  # Configuración local del emulador (si está en el proyecto)
+
+# Build y compilación
 build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
+app/build/
+app/release/
+app/debug/
+*.apk
+*.aab
+*.aar
+*.keystore
+*.jks  # Archivos de firma (¡nunca versionar!)
+.gradle/
 .externalNativeBuild/
 .cxx/
-*.apk
-output.json
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# Archivos generados por Gradle
+/.gradle/
+/gradle-app.setting
+!gradle-wrapper.jar  # Mantén el wrapper
+gradle.properties  # Configuraciones locales (ej: credenciales)
 
-# Keystore files
-*.jks
-*.keystore
+# Logs y temporales
+*.log
+*.tmp
+*.swp
+*.swo
+*.hprof  # Heap dumps
+.recovery
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+._*
 
-# Android Profiling
-*.hprof
+# Kotlin
+out/
+.kotlin/
+bin/
+
+# Tests y cobertura
+.coverage
+/.metadata/
+/.recommenders/
+app/**/*.html  # Reportes de tests
+
+# Firebase
+google-services.json  # Configuración de Firebase (si usas flavors, comenta)
+google-services.*.json
